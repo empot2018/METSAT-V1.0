@@ -1,20 +1,20 @@
 The description of all generated function and what they do in the program 
-a very important note the main script is metsat_3d
+a very important note the main script is METSAT
 
 Read_Variables: in this step, we will be prompted to select the folder   that contains 
-all day’s data files to sort and collect single day climatic Parameters, the code will save 
-the sorted data from all NC files into text file starting with the word “Data”, 
+all dayâ€™s data files to sort and collect single day climatic Parameters, the code will save 
+the sorted data from all NC files into text file starting with the word â€œDataâ€, 
 
-Read_Calc_TPW: in this step, we will be prompted to select the folder that contains all day’s
+Read_Calc_TPW: in this step, we will be prompted to select the folder that contains all dayâ€™s
  data files (the same folder as in the previous step), the total precipitable water (TPW) will be calculated 
-and saved in a separate text file starting with the word “TPW”.
+and saved in a separate text file starting with the word â€œTPWâ€.
 
 Profiles: will plot all the vertical profiles measured in the selected day
 
 gene_Parameters: in this step-in order to plot the 2D and 3D figures for each day separately we 
-will be prompted to select the file starting by the world “Data” generated in the first step.
+will be prompted to select the file starting by the world â€œDataâ€ generated in the first step.
 
-TPW_Parameters: we will be prompted to select the file starting by the world “TPW” generated in the 
+TPW_Parameters: we will be prompted to select the file starting by the world â€œTPWâ€ generated in the 
 second step, to generate mesh and grids needed for 2D plots in the next step
 
 TPW_2D_Plot_: 2D plot of the daily TPW
